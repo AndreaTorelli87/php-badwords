@@ -7,7 +7,7 @@
    <title>Bad Words</title>
 </head>
 <body>
-   <form action="index.php" method="get">
+   <form action="elaboro.php" method="get" action="elaboro.php">
       <input type="text" name="frase" placeholder="Inserisci una frase">
       <input type="text" name="parola" placeholder="Parola vietata">
       <button type="submit">Invia</button>
