@@ -19,7 +19,7 @@ $risultato = str_replace($parola, "***", $frase)
 <body>
    <div class="container p-5 text-center">
       <h1 class="mb-4 fw-bold bg-warning p-4 d-inline-block rounded-5 text-danger">
-         <?php echo $frase; ?>
+         <?php echo $frase . " <-- è lunga: " . strlen($frase) . " caratteri"; ?>
       </h1>
       <br />
       <h2 class="mb-4 fw-bold bg-warning p-4 d-inline-block rounded-5 text-danger">
